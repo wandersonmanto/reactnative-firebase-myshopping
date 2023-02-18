@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import * as ImagePicker from 'expo-image-picker';
+import storage from '@react-native-firebase/storage';
 
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
@@ -28,7 +29,7 @@ export function Upload() {
 
   return (
     <Container>
-      <Header title="Lista de compras" />
+      <Header title="Lista de compras" showLogoutButton/>
 
       <Content>
         <Photo uri={image} onPress={handlePickImage} />

@@ -40,6 +40,8 @@ npx expo install expo-image-picker
 ### Install React Native Firebase. (OK)
 yarn add @react-native-firebase/app
 yarn add @react-native-firebase/firestore
+yarn add @react-native-firebase/storage
+yarn add @react-native-firebase/auth
 npx expo start para instalar as dependencias nativas.
 
 
@@ -69,3 +71,6 @@ import theme from './src/theme';
  4.2 Crie o arquivo index.tsx para gerenciar a navegação.
  4.3 Com o arquivo importado em App.tsx a tela inicial será direcionada ao Routes.
  import { Routes } from './
+
+ #### Implemente o firestore e o auth do firebase.
+3. Crie a pastas routes.

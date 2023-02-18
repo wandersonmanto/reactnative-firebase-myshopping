@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components/native';
 import AppLoading from 'expo-app-loading';
 
 import { Routes } from './src/routes';
+import { SignIn } from './src/screens/SignIn'
 import theme from './src/theme';
 
 import { useFonts, Roboto_400Regular, Roboto_500Medium } from '@expo-google-fonts/roboto';

@@ -11,7 +11,7 @@ import { photosData } from '../../utils/photo.data';
 export function Receipts() {
   return (
     <Container>
-      <Header title="Comprovantes" />
+      <Header title="Comprovantes" showLogoutButton/>
 
       <Photo uri="" />
 
